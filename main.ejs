@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+        nav {
+            background-color: #2196F3;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            animation: slideInDown 1s ease-in-out;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffc107;
+        }
+        main {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            animation: slideInUp 1s ease-in-out;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        p {
+            line-height: 1.6;
+            color: #333;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            animation: slideInUp 1s ease-in-out;
+        }
+
+        /* Keyframe animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes slideInDown {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        @keyframes slideInUp {
+            from {
+                transform: translateY(100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Online Course Management System</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Enroll</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Welcome to our Online Course Management System!</h2>
+            <p>Find the best courses taught by top instructors in various subjects.</p>
+            <p>Enroll in courses, track your progress, and achieve your learning goals.</p>
+            <p>Get started today!</p>
+        </div>
+    </main>
+    <footer>
+        <p>2024 Online Course Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
